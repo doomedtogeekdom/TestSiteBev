@@ -1,0 +1,197 @@
+/* background color:use tint of second color (b1)  */
+body {background-color:#ffffff; margin:5px 10px; font-family:Verdana,Arial,Helvetica,sans-serif;}
+
+/* Default typeface & type size spec */
+td, th, body, p, ul, li, ul:ul, div {font-family:Verdana,Arial,Helvetica,sans-serif; font-size:11px;}
+A {
+	text-decoration : underline;
+	font-family:Verdana,Arial,Helvetica,sans-serif;
+	font-size : 13px;
+	font-weight : bold;
+	color : #336699;
+	cursor : hand;
+}
+H1 { 
+FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; 
+font-size:20px; 
+font-weight:bold; 
+color:#3c4b5b; 
+margin:0px;}
+H2 { 
+FONT-FAMILY: Verdana , Arial, Helvetica, sans-serif; 
+font-size:18px; 
+font-weight:bold; 
+color:#3c4b5b; 
+margin:0px; 
+}
+H3 { 
+FONT-FAMILY: Verdana , Arial, Helvetica, sans-serif; 
+font-size:11px; 
+font-weight:bold; 
+color:#3c4b5b; 
+margin:0px; }
+
+
+/* All form elements (e.g. keeps text entry boxes reasonable size in Netscape) */
+input, textarea {font-family:Verdana,Arial,Helvetica,sans-serif; font-size:11px;}
+SELECT {font-family:Verdana,Arial,Helvetica,sans-serif; font-size:10px; background-color:#f8f8f8;}
+.readonly {background-color:#f8f8f8;}
+
+/* remove extra space around form objects */
+FORM
+{
+  margin:0px; padding:0px;
+}
+
+/* Standard highlight color/treatment */
+/* color: fixed */
+.yellowback {background-color:#ffc;}
+
+hr {
+color:#6d859e;
+}
+ 
+.darkbluewhite{
+  border-top:1px solid #c9d2dc;
+  border-left:1px solid #c9d2dc;
+  border-bottom:1px solid #51657b;
+  background-color:#6d859e;
+  font-weight:bold;
+  color:white;
+  text-decoration:none;
+}
+.darkwhiteblue{
+	background-color:white;
+	font-weight:bold;
+	color:#336699;
+	text-decoration:none;
+	font-size: 13px;
+}
+.darkgreyblue{
+  background-color: #f6f6f6;
+  font-weight:bold;
+  color:#336699;
+  text-decoration:none;
+  }
+.fachead {
+  color:black;
+  background-color:#c9d2dc;
+  font-weight:bold;
+}
+.facheadblue {
+  color:#3c4b5b;
+  background-color:#c9d2dc;
+  font-weight:bold;
+  font-size:20px; 
+  }
+.faclightblue {
+  background-color:#e4eaef;
+  font-weight:normal;
+  color:#4f4f4f;
+  border:none;
+} 
+.crshead {
+  color:black; 
+  background-color:#515346;
+  font-weight:bold;
+}
+.crsheadblue {
+  color:#3c4b5b;
+  background-color:#bcbcbc;
+  font-weight:bold;
+  }
+.lightgray {
+	background-color: #f6f6f6;
+	font-weight: bold;
+	color:black;
+}  
+.medgray {
+	background-color: #e2e2e2;
+	font-weight: normal;
+	color:#4f4f4f;
+}
+.lightgray2 {
+	background-color: #f6f6f6;
+	font-weight: normal;
+	color:black;
+}  
+.medgray2 {
+	background-color: #e2e2e2;
+	font-weight: bold;
+	color:#000000;
+}
+.bluetext { 
+font-family:Verdana , Arial, Helvetica, sans-serif; 
+font-size:12px; 
+font-weight:bold; 
+color:#6d859e; 
+}
+.graytextmed { 
+font-family:Verdana , Arial, Helvetica, sans-serif; 
+font-size:12px; 
+font-weight:bold; 
+color:#4f4f4f; 
+}
+
+.graytextdark { 
+font-family:Verdana , Arial, Helvetica, sans-serif; 
+font-size:12px; 
+font-weight:bold; 
+color:#003300; 
+}
+.bluebutton {
+    position: static; 
+    overflow: visible;
+	background-color:#e4eaef;
+    font-weight:normal;
+    color:black;
+}
+.widebutton {
+    position: static;  
+    overflow: visible;
+	background-color:#e4eaef;
+    font-weight:normal;
+    color:black;
+	}
+.darkheading {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px; COLOR: #3c4b5b; background-color:#e4eaef; FONT-FAMILY: Arial, Helvetica, sans-serif;
+}
+.infobox {
+font-size:20px;
+
+text-align: center;
+border-color: #3c4b5b;
+border-spacing: 10px;
+
+border-style: double;
+}
+.bluebright {
+	COLOR: #6d859e; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; FONT-SIZE: 12px
+	}
+.simplebox {	
+font-family:Verdana,Arial,Helvetica,sans-serif;
+font-size : 11px;
+font-weight : bold;
+
+text-align: left;
+border-color: #3c4b5b;
+border-spacing: 10px;
+border-width: 1px;
+border-style: solid;
+background-color:#f8f8f8;
+}
+.biggerbox {	
+font-family:Verdana,Arial,Helvetica,sans-serif;
+font-size : 11px;
+font-weight : bold;
+
+text-align: left;
+border-color: #3c4b5b;
+border-spacing: 10px;
+border-width: 3px;
+border-style: solid;
+background-color:white;
+}
+img, iframe, object
+{max-width:100%;
+}
